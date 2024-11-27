@@ -74,6 +74,16 @@ end
 time([[try_loadstring definition]], false)
 time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
+  ["bluloco.nvim"] = {
+    loaded = true,
+    path = "/home/darkroos/.local/share/nvim/site/pack/packer/start/bluloco.nvim",
+    url = "https://github.com/uloco/bluloco.nvim"
+  },
+  ["lush.nvim"] = {
+    loaded = true,
+    path = "/home/darkroos/.local/share/nvim/site/pack/packer/start/lush.nvim",
+    url = "https://github.com/rktjmp/lush.nvim"
+  },
   ["nvim-tree.lua"] = {
     loaded = true,
     path = "/home/darkroos/.local/share/nvim/site/pack/packer/start/nvim-tree.lua",

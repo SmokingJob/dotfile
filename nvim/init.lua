@@ -9,6 +9,7 @@ require('plugins.packer') 	-- Gestor de plugins
 -- require('plugins.telescope') 	-- Otro ejemplo de configuración
 require('plugins.nvim-tree')
 require('plugins.toggleterm')
+require('plugins.colors')
 
 -- Cargar módulos personalizados
 require('split_open')     	-- Funciones personalizadas, como abrir divisiones

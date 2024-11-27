@@ -1,4 +1,3 @@
--- Gestionar plugins
 return require('packer').startup(function(use)
   use 'wbthomason/packer.nvim'
   use 'folke/tokyonight.nvim'
@@ -7,11 +6,14 @@ return require('packer').startup(function(use)
     requires = { 'nvim-lua/plenary.nvim' }
   }
   use {
-  'nvim-tree/nvim-tree.lua',
-  requires = {
-    'nvim-tree/nvim-web-devicons', -- Opcional: íconos bonitos para archivos
-  },
-  use 'akinsho/toggleterm.nvim',
-
-}
+    'nvim-tree/nvim-tree.lua',
+    requires = { 'nvim-tree/nvim-web-devicons' } -- Opcional: íconos bonitos para archivos
+  }
+  use 'akinsho/toggleterm.nvim'
+  use {
+    'uloco/bluloco.nvim',
+    requires = { 'rktjmp/lush.nvim' } -- Dependencia necesaria
+  }
 end)
+
+
