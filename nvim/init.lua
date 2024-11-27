@@ -8,6 +8,7 @@ require('plugins.packer') 	-- Gestor de plugins
 -- require('plugins.tokyonight') 	-- Configuración específica para un plugin
 -- require('plugins.telescope') 	-- Otro ejemplo de configuración
 require('plugins.nvim-tree')
+require('plugins.toggleterm')
 
 -- Cargar módulos personalizados
 require('split_open')     	-- Funciones personalizadas, como abrir divisiones

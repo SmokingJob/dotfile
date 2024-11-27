@@ -11,5 +11,7 @@ return require('packer').startup(function(use)
   requires = {
     'nvim-tree/nvim-web-devicons', -- Opcional: íconos bonitos para archivos
   },
+  use 'akinsho/toggleterm.nvim',
+
 }
 end)
