@@ -1,0 +1,6 @@
+".+"
+None, Up, Button4
+None, Down, Button5
+Control_L, Up, Left
+Control_L, Down, Right
+
